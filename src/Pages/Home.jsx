@@ -25,7 +25,7 @@ function Home() {
                 <div className="columns-1">
                 <div className=' max-w-[500px]'>
                     <h2 className=' relative'>The Best <br /> way to grow <br /> your 
-                        <div className='bg-white text-black absolute bottom-0 right-0 px-5 border-solid border-2 border-black rounded-[5px] shadow-[0_1.5rem_0_-0.8rem_#00173F]'>Business</div>
+                        <div className='bg-white text-black absolute bottom-0 right-0 px-5 border-solid border-2 border-black rounded-[5px] shadow-[0_1.5rem_0_-0.8rem_#00173F]'>Business.</div>
                     </h2>
                     <h4 className='py-[2rem]'>Your Cost-effective, Cross-Continental, Digital Innovation Partner</h4>
                     <Button to='#' className='btn-primary-smc ms-0 sm:ms-12'>RECENT WORKS</Button>
