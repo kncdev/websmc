@@ -1,22 +1,5 @@
 import React, { useState } from 'react'
 import Navbar from '../Components/Navbar/Navbar'
-import starHeroSvg from '../assets/images/star.svg'
-import arrowHeroSvg1 from '../assets/images/arrow-1.svg'
-import arrowHeroSvg2 from '../assets/images/arrow-2.svg'
-import iconCursor from '../assets/img/icon-cursor.svg'
-import imgMeet from '../assets/images/meet.svg'
-import whatTxt from '../assets/images/what-text.svg'
-import devCard from '../assets/images/dev-card.svg'
-import digCard from '../assets/images/dig-card.svg'
-import hpDig from '../assets/images/hp-dig.svg'
-import work1 from '../assets/images/work-1.svg'
-import quoteIcon from '../assets/images/quote-icon.svg'
-import human from '../assets/images/human.png'
-import starTesti from '../assets/images/star-testi.svg'
-import Button from '../Components/Button/Button'
-import TextAnimation from '../Components/TextAnimation/TextAnimation'
-import CardCover from '../Components/CardCover/CardCover'
-import Carousel from '../Components/Carousel/Carousel'
 
 function Build() {
   const listText=[
