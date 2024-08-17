@@ -1,18 +1,28 @@
 import React from 'react'
+import Navbar from '../Components/Navbar/Navbar'
 
 function Sitemap() {
   return (
     <>
-     <ul className='grid grid-cols-1 gap-8 p-5 bg-white text-black'>
-        <li><h5>Done</h5></li>
-        <li>-</li>
-        <li><h5>Progress</h5></li>
-        <li><a className=' link-success text-black' href="/" target='_blank'>Home</a></li>
-        <li><a className=' link-success text-black' href="/our-capabilities" target='_blank'>Our Capabilities</a></li>
-        <li><a className=' link-success text-black' href="/our-craft" target='_blank'>Our Craft</a></li>
-        <li><a className=' link-success text-black' href="/our-works" target='_blank'>Our Works</a></li>
-        <li><a className=' link-success text-black' href="/resource" target='_blank'>Resource</a></li>
-     </ul> 
+      <Navbar ns="nv2"/>
+
+    <div className="container min-h-[100vh] p-[2rem] mt-[10rem] bg-white flex flex-col gap-[1rem]">
+<a href="/erp-dev">ERP Page</a>
+<a href="/web-app-dev">WEB / App Developement Page</a>
+<a href="/maintenance">Software Maintenance Page</a>
+<a href="/it-consulting">IT Consulting Page</a>
+<a href="/custom-solution">Presentation Design Page</a>
+<a href="/digital-product-design">Digital Product Design Page</a>
+<a href="/custom-solution">Digital Banner Design Page</a>
+<a href="/custom-solution">Motion Graphic Page</a>
+<a href="/custom-solution">Illustration Page</a>
+<a href="/copywriting-google-service">Google Service Page</a>
+<a href="/ads-service">Social Media Activation & ADS Page</a>
+<a href="/seo-service">SEO Page</a>
+<a href="/maintenance">Web Maintenance Page</a>
+<a href="/copywriting-service">Copywriting Page</a>
+
+    </div>
     </>
   )
 }
