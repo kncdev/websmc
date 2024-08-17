@@ -7,7 +7,7 @@ function Sitemap() {
       <Navbar ns="nv2"/>
 
     <div className="container min-h-[100vh] p-[2rem] mt-[10rem] bg-white flex flex-col gap-[1rem]">
-<a href="erp-dev">ERP Page</a>
+<a href="/erp-dev">ERP Page</a>
 <a href="/web-app-dev">WEB / App Developement Page</a>
 <a href="/maintenance">Software Maintenance Page</a>
 <a href="/it-consulting">IT Consulting Page</a>
