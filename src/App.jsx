@@ -21,7 +21,6 @@ import SeoService from './Pages/SeoService'
 import CopywritingService from './Pages/CopywritingService'
 import CopywritingGoogleService from './Pages/CopywritingGoogleService'
 import NotFound from './Pages/NotFound'
-import Sitemap from './Pages/Sitemap'
 
 
 function App() {
@@ -49,7 +48,6 @@ function App() {
         <Route path='/seo-service' element={<SeoService/>}/>
         <Route path='/copywriting-service' element={<CopywritingService/>}/>
         <Route path='/copywriting-google-service' element={<CopywritingGoogleService/>}/>
-        <Route path='/sitemap' element={<Sitemap/>}/>
         <Route path='*' element={<NotFound/>}/>
       </Routes>
     </Router>
