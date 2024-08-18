@@ -13,7 +13,6 @@ const Navbar = ({ns}) => {
         {name:'Our Craft', path:'/our-craft'},
         {name:'Our Works', path:'/our-works'},
         {name:'Resource', path:'/resource'},
-        {name:'Sitemap', path:'/sitemap'}
     ];
 
     const [scrollPosition, setScrollPosition] = useState(0);
