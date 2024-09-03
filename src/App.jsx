@@ -21,13 +21,17 @@ import SeoService from './Pages/SeoService'
 import CopywritingService from './Pages/CopywritingService'
 import CopywritingGoogleService from './Pages/CopywritingGoogleService'
 import NotFound from './Pages/NotFound'
+import { Helmet } from 'react-helmet';
 
 
 function App() {
 
   return (
     <>
-    <Router>
+ <Helmet>
+      <meta name="google-site-verification" content="h0sqGyxRVzwcW5E0NSycW4lKaMIlWY0GBUau8TYPMg4" />
+    </Helmet>
+      <Router>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/our-capabilities' element={<OurCapabilities/>}/>
