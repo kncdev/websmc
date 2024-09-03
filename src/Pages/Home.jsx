@@ -51,8 +51,7 @@ function Home() {
 
     <HelmetProvider>
         <Helmet>
-            <meta name="google-site-verification" content="h0sqGyxRVzwcW5E0NSycW4lKaMIlWY0GBUau8TYPMg4" />
-            <title>SMC.</title>
+            <title>SMC</title>
         </Helmet>
     </HelmetProvider>
 
@@ -81,7 +80,7 @@ function Home() {
               </div>
               <div className="home-header-cta_content xl:mx-0 mx-auto lg:pb-0 pb-4">
                 <div className="h-0 sm:translate-x-[-3rem] translate-x-[-5rem] translate-y-[-3rem]"><img src={arrowHeroSvg1} alt="" className='animate-bounce'/></div>
-                <Button btn="btn1" to='/resource' className='sm:ms-[1.875rem] ms-0 btn-primary-smc'>RECENT WORKS</Button>
+                <Button btn="btn1" to='/resource' className='sm:ms-[1.875rem] ms-0 btn-primary-smc'>RECENT WORKS.</Button>
                 <div className="h-0 sm:translate-x-[16rem] translate-x-[8rem] sm:translate-y-[-2rem] translate-y-[-1.5rem]"><img src={arrowHeroSvg2} alt="" className='animate-bounce delay-75'/></div>
               </div>
             </div>
