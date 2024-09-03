@@ -51,6 +51,7 @@ function Home() {
 
     <HelmetProvider>
         <Helmet>
+            <meta name="google-site-verification" content="h0sqGyxRVzwcW5E0NSycW4lKaMIlWY0GBUau8TYPMg4" />
             <title>SMC</title>
         </Helmet>
     </HelmetProvider>
