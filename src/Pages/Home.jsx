@@ -69,7 +69,7 @@ function Home() {
                     <h2 className='xl:leading-[6.125rem] leading-normal sm:text-[4.5rem] text-[3rem]'>The Best way to grow your</h2>
                     <div className="sm:translate-x-[12rem] sm:translate-y-[-5rem] translate-y-[-4rem] translate-x-[8rem] flex flex-nowrap">
                       <div className="relative rotate-[-1.65deg]">
-                        <div className='relative z-10 py-[0.625rem] px-[1.25rem] bg-white text-black border-solid border-2 border-black rounded-[0.313rem]'><h2 className='sm:text-[4.5rem] text-[3rem]'>Business</h2></div>
+                        <div className='relative z-10 py-[0.625rem] px-[1.25rem] bg-white text-black border-solid border-2 border-black rounded-[0.313rem]'><h2 className='sm:text-[4.5rem] text-[3rem]'>Business.</h2></div>
                         <div className="absolute bg-[#00173F] top-[0.5rem] left-[0.5rem] w-[95%] h-full rounded-[0.313rem]"></div>
                       </div>
                       <img src={starHeroSvg} alt="" className='translate-x-[-1.5rem] translate-y-[4rem]'/>
